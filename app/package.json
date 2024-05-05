@@ -1,0 +1,27 @@
+{
+  "name": "app_cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server -e js,html,hbs,css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.7",
+    "dropzone": "^6.0.0-beta.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "express-session-sequelize": "^2.3.0",
+    "form-data": "^4.0.0",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-cron": "^3.0.3",
+    "nodemailer-express-handlebars": "^6.1.2",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.3",
+    "sweetalert2": "^11.10.8"
+  }
+}
